@@ -1,0 +1,6 @@
+---
+- name: === Windows 2019 STIG Remediation ===
+  hosts: "{{ HOSTS | default('all') }}"
+  
+  roles:
+  - Windows-2019-STIG
