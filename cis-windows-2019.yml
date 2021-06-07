@@ -1,0 +1,6 @@
+---
+- name: === Windows 2019 CIS Remediation ===
+  hosts: "{{ HOSTS }}"
+  
+  roles:
+  - Windows-2019-CIS
